@@ -1,0 +1,82 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,h2,h3 {
+  font-weight: 600;
+  margin-bottom: 16px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.ulLocations {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;        
+  align-items: center;         
+}
+
+.liLocations {
+  width: 50%;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.addLocation{
+  display: flex;     
+  padding: 16px;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  flex-direction: row;        
+  align-items: center;         
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+button.cancel {
+  background-color: #6c757d;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.cancel:hover {
+  opacity: 0.8;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
