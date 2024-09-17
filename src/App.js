@@ -9,18 +9,18 @@ function App() {
   return (
   
     <Router>
-        <Header></Header>
+      
       <nav>
-        <ul>
+        <ul class = "routerList">
           <li>
-            <Link  to="/">Go to Home Page</Link>
+            <Link  to="/"><p className ="centerLink">Go to Home Page</p></Link>
           </li>
           <li class = "routerLi">
-            <Link to="/map" className ="centerLink"><p>Go to Map Page</p></Link>
+            <Link to="/map"><p className ="centerLink">Go to Map Page</p></Link>
           </li>
         </ul>
       </nav>
-
+      <Header></Header>
     <Routes>
       <Route path="/" element={<HomePage />} />
 
